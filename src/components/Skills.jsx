@@ -12,7 +12,7 @@ const skills = [
   { name: "VS Code", logo: "https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/vscode/vscode-original.svg" },
   // { name: "RESTful APIs", logo: "https://via.placeholder.com/40?text=API" }, // Replace with actual icon
   { name: "TailwindCSS", logo: "https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/tailwindcss/tailwindcss-plain.svg" },
-  { name: "npm/yarn", logo: "https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/npm/npm-original-wordmark.svg" },
+  { name: "npm", logo: "https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/npm/npm-original-wordmark.svg" },
   // { name: "Web Accessibility", logo: "https://via.placeholder.com/40?text=A11Y" }, // Replace with actual icon
 ];
 

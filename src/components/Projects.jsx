@@ -6,21 +6,21 @@ const projects = [
     title: "Space",
     description: "A responsive space related website built with React and TailwindCSS, featuring smooth animations and a modern design.",
     tech: ["React", "TailwindCSS", "AOS"],
-    demo: "space-one-red.vercel.app",
+    demo: "https://space-one-red.vercel.app/",
     github: "https://github.com/anasuya100/space_.git"
   },
   {
     title: "Foodie Corner",
     description: "A food restaurant website showcasing a menu, reservation system, and customer reviews, built with React and TailwindCSS.",
     tech: ["React", "Tailwind css", "CSS Animations"],
-    demo: "foodie-corner-zeta.vercel.app",
+    demo: "https://foodie-corner-zeta.vercel.app/",
     github: "https://github.com/anasuya100/Foodie-Corner.git"
   },
   {
     title: "Mental Health Chatbot",
     description: "An AI-powered chatbot designed to provide mental health support and resources, utilizing natural language processing for user interaction.",
     tech: ["React", "Python", "TailwindCSS"],
-    demo: "mental-health-bot-eight.vercel.app",
+    demo: "https://mental-health-bot-eight.vercel.app/",
     github: "https://github.com/anasuya100/Mental_Health_bot.git"
   }
 ];
