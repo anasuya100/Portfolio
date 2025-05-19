@@ -20,7 +20,7 @@ export function Skills() {
   return (
     <section id="skills" className="py-16 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-[#5C4033] mb-12 text-center drop-shadow-md">
+        <h2 data-aos="zoom-in" className="text-4xl font-extrabold text-[#5C4033] mb-12 text-center drop-shadow-md">
           Technical Skills
         </h2>
         {/* Scrolling container */}

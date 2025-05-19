@@ -5,7 +5,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-[#5C4033] text-[#F0E5D8] p-4 fixed w-full top-0 z-50">
+    <nav data-aos="fade-down" className="bg-[#5C4033] text-[#F0E5D8] p-4 fixed w-full top-0 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">Anasuya Roy</h1>
         

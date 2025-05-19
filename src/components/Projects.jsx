@@ -3,23 +3,44 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "VibeCanvas",
+    description: "VibeCanvas is a mood tracking web app which Log your daily moods with emoji buttons and visualize emotional patterns on a color-coded calendar, styled with a vibrant palette.",
+    tech: ["React", "TailwindCSS", "Framer Motion", "Lucide React", "Date-fns"],
+    demo: "https://vibe-canvas-ashen.vercel.app/",
+    github: "https://github.com/anasuya100/VibeCanvas-"
+  },
+  {
+    title: "QuoteBloom",
+    description: "A simple web application that displays random inspirational quotes with a smooth fade-in animation when a new quote is generated.",
+    tech: ["React", "TailwindCSS", "Framer Motion", "Lucide React"],
+    demo: "https://quote-bloom.vercel.app/",
+    github: "https://github.com/anasuya100/QuoteBloom"
+  },
+  {
+    title: "Crypto Price tracker",
+    description: "A responsive Web app tracks real-time cryptocurrency prices.This app simulates live updates using mock WebSocket behavior and handles all state management via Redux Toolkit.",
+    tech: ["React", "TailwindCSS", "Redux Toolkit"],
+    demo: "https://crypto-price-tracker-lac.vercel.app/",
+    github: "https://github.com/anasuya100/Crypto-Price-Tracker"
+  },
+  {
     title: "Space",
     description: "A responsive space related website built with React and TailwindCSS, featuring smooth animations and a modern design.",
-    tech: ["React", "TailwindCSS", "AOS"],
+    tech: ["React", "TailwindCSS", "AOS", "javascript"],
     demo: "https://space-one-red.vercel.app/",
     github: "https://github.com/anasuya100/space_.git"
   },
   {
-    title: "Foodie Corner",
-    description: "A food restaurant website showcasing a menu, reservation system, and customer reviews, built with React and TailwindCSS.",
-    tech: ["React", "Tailwind css", "CSS Animations"],
-    demo: "https://foodie-corner-zeta.vercel.app/",
-    github: "https://github.com/anasuya100/Foodie-Corner.git"
+    title: "Pokemonn",
+    description: "A responsive pokemon display website featuring smooth animations and a modern design.",
+    tech: ["React", "Tailwind css","lucide-react", "PokeAPI"],
+    demo: "https://pokemonn-xi.vercel.app/",
+    github: "https://github.com/anasuya100/Pokemonn"
   },
   {
     title: "Mental Health Chatbot",
     description: "An AI-powered chatbot designed to provide mental health support and resources, utilizing natural language processing for user interaction.",
-    tech: ["React", "Python", "TailwindCSS"],
+    tech: ["React", "Python","JavaScript" ,"TailwindCSS"],
     demo: "https://mental-health-bot-eight.vercel.app/",
     github: "https://github.com/anasuya100/Mental_Health_bot.git"
   }
@@ -28,7 +49,7 @@ const projects = [
 export function Projects() {
   return (
     <section id="projects" className="py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div data-aos="zoom-in" className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-[#5C4033] mb-12 text-center">Featured Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (

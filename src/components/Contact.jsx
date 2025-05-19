@@ -25,11 +25,11 @@ export function Contact() {
   return (
     <section id="contact" className="py-16 px-4 bg-[#F4E4BC]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-[#5C4033] mb-12 text-center">Let's Connect</h2>
+        <h2 data-aos="zoom-in" className="text-3xl font-bold text-[#5C4033] mb-12 text-center">Let's Connect</h2>
         
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-[#5C4033]">
+          <div data-aos="fade-right" className="bg-white p-8 rounded-lg shadow-lg border-2 border-[#5C4033]">
             <h3 className="text-2xl font-semibold text-[#5C4033] mb-6">Get in Touch</h3>
             
             <div className="space-y-6">
@@ -92,7 +92,7 @@ export function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-[#5C4033]">
+          <div data-aos="fade-left" className="bg-white p-8 rounded-lg shadow-lg border-2 border-[#5C4033]">
             <h3 className="text-2xl font-semibold text-[#5C4033] mb-6">Send Me a Message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
